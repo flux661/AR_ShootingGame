@@ -13,10 +13,10 @@ EditorBuildSettings:
     guid: 3041e84c88141a840b9e8df50b79145b
   - enabled: 1
     path: Assets/ExampleAssets/Scenes/ShootGame medium.unity
-    guid: c47d68c768f655848ac6247534b3c21a
+    guid: 80fe70f1c5ba13545b0e891fb12395e7
   - enabled: 1
     path: Assets/ExampleAssets/Scenes/ShootGame hard.unity
-    guid: 6b45bdf41a6f82e49a460235adb948f3
+    guid: ce5d1eec05a528e4ebb6f650fb116f57
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
@@ -26,7 +26,7 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
       type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 82ee88fb0eeadcb43a8da77c0e97c6ba,
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 492160b2cc8778247baf5774f7be784b,
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: b27ec7d82a91a48e69fd689ad6808e5e,
       type: 2}

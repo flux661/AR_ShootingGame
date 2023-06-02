@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ShootScript : MonoBehaviour
 {
     public GameObject arCamera;
     public GameObject smoke;
     public GameObject fire;
-    public Text scoreTxt;
-    public Text LifeTxt;
+    public TMP_Text scoreTxt;
+    public TMP_Text LifeTxt;
     public static int score;
     private int Life;
     public Image[] hearts;// make a array of hearts for max life
@@ -53,7 +54,7 @@ public class ShootScript : MonoBehaviour
                 Instantiate(smoke, hit.point, Quaternion.LookRotation(hit.normal));
 
                 score++;
-                scoreTxt.text = "SCORE : " + score;
+                scoreTxt.SetText("SCORE : " + score);
             }
             else if (hit.transform.name == "Mon_00(Clone)" || hit.transform.name == "Old-timer bomb prefab(Clone)" || hit.transform.name == "Bomb(Clone)")
             {
@@ -61,10 +62,10 @@ public class ShootScript : MonoBehaviour
                 Instantiate(fire, hit.point, Quaternion.LookRotation(hit.normal));
 
                 score--;
-                scoreTxt.text = "SCORE : " + score;
+                scoreTxt.SetText("SCORE : " + score);
 
                 Life--;
-                LifeTxt.text = "LIFE : " + Life;
+                LifeTxt.SetText("LIFE : " + Life);
 
             }
             else if (hit.transform.name == "gem_13(Clone)" || hit.transform.name == "gem_08(Clone)")
@@ -73,8 +74,8 @@ public class ShootScript : MonoBehaviour
                 Instantiate(smoke, hit.point, Quaternion.LookRotation(hit.normal));
 
                 score = score + 2;
-             
-                scoreTxt.text = "SCORE : " + score;
+
+                scoreTxt.SetText("SCORE : " + score);
             }
             else if (hit.transform.name == "Heart(Clone)")
             {
@@ -82,7 +83,7 @@ public class ShootScript : MonoBehaviour
                 Instantiate(smoke, hit.point, Quaternion.LookRotation(hit.normal));
 
                 Life++;
-                LifeTxt.text = "LIFE : " + Life;
+                LifeTxt.SetText( "LIFE : " + Life);
             }
 
         }

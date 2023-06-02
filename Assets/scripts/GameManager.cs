@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject PauseMenu;
     public static int Score;
     public GameObject gameover;
+    public GameObject SettingsMenu;
   
 
     // Start is called before the first frame update
@@ -43,9 +44,22 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void IngameSettings()
+    {
+        Time.timeScale = 0;
+        SettingsMenu.SetActive(true);
+
+    }
+
     public void ResumeGame ()
     {
         PauseMenu.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void BackfromSettings()
+    {
+        SettingsMenu.SetActive(false);
         Time.timeScale = 1;
     }
 
@@ -61,7 +75,20 @@ public class GameManager : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene("ShootGame");
+        if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Shootgame easy"))
+        {
+            SceneManager.LoadScene("Shootgame easy");
+        }
+
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Shootgame medium"))
+        {
+            SceneManager.LoadScene("Shootgame medium");
+        }
+
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Shootgame hard"))
+        {
+            SceneManager.LoadScene("Shootgame hard");
+        }
     }
 
 }

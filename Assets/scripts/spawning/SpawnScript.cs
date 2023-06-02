@@ -23,7 +23,7 @@ public class SpawnScript : MonoBehaviour
         for(int i=0;i<4;i++)
         {
             
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(0f, 0f), -0.5f, Random.Range(1.5f, 3f));  //We are creating random positions from
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(-1.5f, 1.5f), -0.5f, Random.Range(1.5f, 3f));  //We are creating random positions from
                                                                                                                   //-1.5 to 1.5 in X-axis and 1.5 to 3 in Z-axis
            
 
