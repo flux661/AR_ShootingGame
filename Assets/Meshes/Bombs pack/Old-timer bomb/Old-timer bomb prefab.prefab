@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 1826449330192820474}
   - component: {fileID: 5528361569889283117}
   - component: {fileID: 5603586222902188711}
+  - component: {fileID: -4596525635738602865}
   m_Layer: 0
   m_Name: Old-timer bomb prefab
   m_TagString: Untagged
@@ -336,3 +337,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+--- !u!114 &-4596525635738602865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5372b23539558e1418cd8447f18eb4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

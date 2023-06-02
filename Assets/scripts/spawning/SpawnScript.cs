@@ -20,7 +20,7 @@ public class SpawnScript : MonoBehaviour
         
         yield return new WaitForSeconds(3);
 
-        for(int i=0;i<3;i++)
+        for(int i=0;i<4;i++)
         {
             
             Vector3 randomSpawnPosition = new Vector3(Random.Range(0f, 0f), -0.5f, Random.Range(1.5f, 3f));  //We are creating random positions from

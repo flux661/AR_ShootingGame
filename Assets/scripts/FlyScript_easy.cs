@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlyScript_easy : MonoBehaviour
 {
-    public float speed = 0.5f;
+    public float speed = 0.2f;
      
     // Update is called once per frame
     void Update()
@@ -12,7 +12,7 @@ public class FlyScript_easy : MonoBehaviour
 
         if (ShootScript.score > 0 && ShootScript.score % 5 == 0)
         {
-            speed += 1.0f;
+            speed += 0.3f;
         }
         transform.Translate(Vector3.up * Time.deltaTime * speed);
     }

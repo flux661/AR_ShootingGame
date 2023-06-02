@@ -7,19 +7,13 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public Text HighTxt;
-   // public GameObject RulesPanel;
+  
 
     void Start ()
     {
         HighTxt.text = "HighScore : " + PlayerPrefs.GetInt("highscore",0).ToString();
     }
-    public void PlayGame()
-    {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);   we can use this also
-        SceneManager.LoadScene("ShootGame");
-
-    }
-
+  
     public void ExitGame ()
     {
         Application.Quit();
@@ -31,10 +25,22 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("instructions");
     }
 
-   /* public void Back()
+    public void PlayGame_easy()
     {
-        SceneManager.LoadScene("MainMenu");
-    }*/
+        SceneManager.LoadScene("ShootGame easy");
+
+    }
+    public void PlayGame_medium()
+    {
+        SceneManager.LoadScene("ShootGame medium");
+
+    }
+    public void PlayGame_hard()
+    {
+        SceneManager.LoadScene("ShootGame hard");
+
+    }
+
 
 
 

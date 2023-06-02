@@ -11,7 +11,7 @@ public class FlyScript_hard : MonoBehaviour
     {
         if (ShootScript.score > 0 && ShootScript.score % 5 == 0)
         {
-            speed += 1.0f;
+            speed += 0.5f;
         }
 
             transform.Translate(Vector3.up * Time.deltaTime * speed);

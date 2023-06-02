@@ -30469,6 +30469,7 @@ GameObject:
   - component: {fileID: 3828601293077465769}
   - component: {fileID: 3282800920571358769}
   - component: {fileID: 3191844023627630545}
+  - component: {fileID: -5937503945626898617}
   m_Layer: 0
   m_Name: Mon_00
   m_TagString: Untagged
@@ -30626,6 +30627,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &-5937503945626898617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818861082154570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5372b23539558e1418cd8447f18eb4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1846604720013428
 GameObject:
   m_ObjectHideFlags: 0
