@@ -21,6 +21,13 @@ Mini games are a great means for light entertainment. This game project lets the
 **Microsoft Visual Studio**  
 **C# Programming Language**  
 
+##AR Components Used:  
+
+- **AR Session:** AR session controls the lifecycle of an AR experience by enabling or disabling AR on the target platform
+- **AR Session Origin:** The purpose of the AR Session Origin is to transform trackable features, such as planar surfaces and feature points, into their final position, orientation, and scale in the Unity Scene. It also has AR cam which is the device cam.
+- **AR Raycast Manager:** also known as hit testing ray casting allows you to determine where a ray intersect with a trackable like a plane or a point closed.
+
+
       
 
 
@@ -37,11 +44,6 @@ This is an augmented reality game and players must use their smartphone to shoot
 - Pause Menu with options to resume game, restart game or transition back to main menu. 
 - Game built for Android API level 24 and above. 
 
-##AR Components Used:  
-
-- **AR Session:** AR session controls the lifecycle of an AR experience by enabling or disabling AR on the target platform
-- **AR Session Origin:** The purpose of the AR Session Origin is to transform trackable features, such as planar surfaces and feature points, into their final position, orientation, and scale in the Unity Scene. It also has AR cam which is the device cam.
-- **AR Raycast Manager:** also known as hit testing ray casting allows you to determine where a ray intersect with a trackable like a plane or a point closed.
 
 
  ```
