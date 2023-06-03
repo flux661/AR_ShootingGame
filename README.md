@@ -16,7 +16,7 @@ Mini games are a great means for light entertainment. This game project lets the
 **ARCore SDK**  
 **Android SDK**   
 
-### IDE and Programming Langugage used:  
+### IDE and Programming Language used:  
 
 **Microsoft Visual Studio**  
 **C# Programming Language**  
