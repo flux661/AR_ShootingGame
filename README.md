@@ -9,19 +9,19 @@ Mini games are a great means for light entertainment. This game project lets the
 
 ## Tech Stack
 
-##Tools and Frameworks :
+### Tools and Frameworks :
 
 **Unity 3D Game Engine**  
 **Blender**  
 **ARCore SDK**  
 **Android SDK**   
 
-##IDE and Programming Langugage used:  
+### IDE and Programming Langugage used:  
 
 **Microsoft Visual Studio**  
 **C# Programming Language**  
 
-##AR Components Used:  
+## AR Components Used:  
 
 - **AR Session:** AR session controls the lifecycle of an AR experience by enabling or disabling AR on the target platform
 - **AR Session Origin:** The purpose of the AR Session Origin is to transform trackable features, such as planar surfaces and feature points, into their final position, orientation, and scale in the Unity Scene. It also has AR cam which is the device cam.
